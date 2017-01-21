@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	position: relative;
+	max-width: 100%;
+}
+.topHeader {
+	display: flex;
+	flex-flow: row wrap;
+}
+.logo {
+	flex: 1;
+	color: #0066ff;
+	font-size: 45px;
+	padding: 0 10px;
+}
+.topHeaderNav {
+	margin-left: auto;
+	flex: 1;
+	list-style-type: none;
+	position: absolute;
+	left: 1000px;
+	top: 10px;
+}
+.topHeaderNav li {
+	display: inline-block;
+	padding-top: 10px;
+}
+.forca {
+	font-family: georgia;
+	color: #b3d1ff;
+}
+.topHeaderNav a {
+	padding: 10px;
+	text-decoration: none;
+	margin-right: 15px;
+	color: 	 #0073e6;
+}
+.topHeaderNav .upgrade {
+	color: #00e64d;
+	border: 2px solid #00e64d;
+}
+.textHeader {
+	position: relative;
+	background: #339966;
+	color: white;
+	font-family: helvetica;
+}
+.text {
+	padding: 30px 150px;
+}
+.text h4 {
+	margin-bottom: 10px;
+}
+.upgrade-logo {
+	position: absolute;
+	left: 800px;
+	top: 50%;
+	left: 80%;
+	transform: translate(-50%,-50%);
+}
+.upgrade-logo a {
+	color: #fff;
+	padding: 10px;
+	background: #66cc99;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.final-nav {
+	list-style-type: none;
+	margin-top: 25px;
+}
+.final-nav li {
+	display: inline-block;
+	padding: 10px;
+}
+.final-nav a {
+	text-decoration:none;
+	color: #333;
+	padding: 7px 0;
+}
+.final-nav a:hover {
+	border-bottom: 3px solid #333;
+}
+.active {
+	border-bottom: 3px solid #333;
+}
+.main {
+	background: #ddd;
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+}
+.card {
+	margin-top: 50px;
+	background: #fff;
+	border: 1px solid #036;
+	width: 300px;
+	margin-bottom: 30px;
+}
+.card h3 {
+	color: #06f;
+}
+.card .topText {
+	background: #003366;
+	color: #fff;
+	padding: 40px 30px;
+	text-align: center;
+}
+.card .bottom-text h3 {
+	padding: 15px;
+}
+.card .bottom-text p {
+	padding: 10px;
+}
