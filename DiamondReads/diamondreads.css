@@ -1,0 +1,82 @@
+#header {
+	padding: 20px;
+	word-spacing: 20px;
+}
+.container .logo {
+	font-size: 25px;
+	font-weight: bold;
+}
+.header-logo {
+	font-size: 35px;
+}
+#diamond {
+	color: #4db8ff;
+}
+.logo a {
+	text-decoration: none;
+}
+.container .left-side {
+	background: #f6f6f6;
+}
+#main-section {
+	border: 8px solid grey;
+	border-radius: 5px;
+}
+#main-section h3 {
+	color: #0040ff;
+}
+img {
+	float: left;
+	padding: 20px;
+}
+#description {
+	margin-top: 10px;
+}
+#description p {
+	padding: 20px;
+}
+.radio .rad1 {
+	height: 40px;
+	background: #f6f6f6;
+	padding: 8px;
+	font-size: 16px;
+}
+.radio .rad2 {
+	height: 40px;
+	background: #f6f6f6;
+	margin-top: 10px;
+	font-size: 16px;
+	padding: 8px;
+} 
+.price {
+	font-weight: bold;
+	margin-left: 40px;
+}
+#main-section-2 {
+	border: 2px solid grey;
+}
+.nav li.active a {
+	background: #99ffcc !important;
+	color: green;
+	font-weight: bold;
+	border-radius: 5px 5px 0 0;
+}
+.nav li:not(.active) a {
+	border: 1px solid blue;
+	font-weight: bold;
+	border-radius: 5px 5px 0 0;
+	margin-left: -2px;
+}
+.nav-tabs {
+	margin-top: -40px;
+}
+.footer {
+	background: #660033;
+	padding: 10px;
+}
+.footer li a {
+	color: #fff;
+}
+.footer ul li {
+	list-style-type: none;
+}
