@@ -1,0 +1,2 @@
+Hello I'm Godsave Joseph! This is web page is built using Bootstrap 3.3.7. I used the jQuery plugin "scrollreveal" to generate the animation on the services and cars section. This webpage is inspired by a template from StartBootstrap.com. Their templates have been very helpful to me in developing my frontend development skills.
+This theme is made by Godsave Joseph! https://twitter.com/godsavejoseph
