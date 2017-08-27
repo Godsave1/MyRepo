@@ -1,0 +1,2 @@
+This is web page is built using Bootstrap 3.3.7. Special credits to Startbootstrap.com for the images used on this page. Their templates have been very helpful to me in developing my frontend development skills.
+This theme is made by Godsave Joseph! https://twitter.com/godsavejoseph
