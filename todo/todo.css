@@ -1,0 +1,10 @@
+.container .wrapper {
+	max-width: 400px;
+	margin: 0 auto;
+}
+button:hover, button:focus {
+	cursor: pointer;
+}
+.shift {
+	float: left;
+}

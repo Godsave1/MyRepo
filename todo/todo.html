@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo List</title>
+
+	<link rel="stylesheet" type="text/css" href="../../bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="todo.css">
+</head>
+<body>
+	<div class="jumbotron jumbotron-fluid bg-success">
+		<div class="container text-white">
+			<h1 class="text-center">Simple ToDo List</h1>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="wrapper">
+			<div class="form-group">
+          		<input type="text" class="form-control" placeholder="Add to list" id="comment" >
+        	</div>
+        	<button class="btn btn-success" id="btn">Add to list</button>
+
+        	<div class="todos">
+				<div class="card bg-success text-white mt-3">
+					<div class="card-body">
+						<div class="form-check">
+	        				<label class="form-check-label">
+	          				<input class="form-check-input" type="checkbox" value="option1"> Marina by 2pm
+	        				</label>
+	      				</div>
+					</div>
+				</div>
+			</div> 
+		</div>
+	</div>
+	<script type="text/javascript" src="../../jquery.min.js"></script>
+	<script type="text/javascript" src="../../bootstrap.min.js"></script>
+	<script type="text/javascript" src="todo.js"></script>
+</body>
+</html>
